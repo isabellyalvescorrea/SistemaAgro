@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import { Clientes } from './Pages/Clientes';
 import { Produtos } from './Pages/Produtos/';
-import { Toaster } from 'sonner';
 import { Vendas } from './Pages/Vendas';
+import { Toaster } from 'sonner';
 
 export default function App() {
   return (
@@ -12,7 +12,6 @@ export default function App() {
         <Link to="/" className="hover:underline">Clientes</Link>
         <Link to="/produtos" className="hover:underline">Produtos/Estoque</Link>
         <Link to="/vendas" className="hover:text-green-200 transition-colors">Vendas/Financeiro</Link>
-        
       </nav>
 
       <Routes>

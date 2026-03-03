@@ -39,6 +39,14 @@
       "id": "61ba",
       "nomeFazenda": "Diegão",
       "cidade": "Muriaé"
+    },
+    {
+      "id": "2e15",
+      "nomeFazenda": "fazenda da Isabelly",
+      "proprietario": "Isabelly",
+      "cpf": "133432647",
+      "numero": "(32)99345670",
+      "email": "exemplo@gmail.com"
     }
   ],
   "produtos": [
@@ -69,6 +77,14 @@
       "produtoNome": "Fertilizante NPK 10-10-10",
       "quantidade": 3,
       "valorTotal": 450,
+      "data": "03/03/2026"
+    },
+    {
+      "id": "cc60",
+      "clienteNome": "Fazenda Boa Vista",
+      "produtoNome": "Fertilizante NPK 10-10-10",
+      "quantidade": 1,
+      "valorTotal": 150,
       "data": "03/03/2026"
     }
   ],
